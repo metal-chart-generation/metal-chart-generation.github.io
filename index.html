@@ -173,7 +173,7 @@
                   <!-- Github link -->
                   <span class="link-block">
                     <a
-                      href="https://github.com/YOUR REPO HERE"
+                      href="https://github.com/metal-framework/metal"
                       target="_blank"
                       class="external-link button is-normal is-rounded is-dark"
                     >
@@ -200,13 +200,13 @@
           <br />
           <h2 class="subtitle has-text-centered">
             Direct prompting of current VLMs (e.g. GPT- 4O) often fails to
-            generate charts that accurately repli- cate reference charts,
+            generate charts that accurately replicate reference charts,
             resulting in errors in structure, color, and text alignment. Our
             proposed approach, METAL, tackle this challenge with iterative
             refinement through generation, critique, and revision. Emperical
             result shows that METAL exhibits the phenomenon of test-time
-            scaling: its per- formance increases monotonically as the loga-
-            rithmic computational budget grows from 512 to 8192 tokens.
+            scaling: its performance increases monotonically as the logarithmic
+            computational budget grows from 512 to 8192 tokens.
           </h2>
         </div>
       </div>
@@ -310,8 +310,13 @@
               >
                 <br />
                 <b>[1/4] Enhanced Performance</b>:<br /><br />
-                METAL achieves 5.2% improvement in accuracy over the current
-                best result in the chart generation task.
+                METAL achieves improvement over the current best result in the
+                chart generation task. For the LLaMA base model, the average F1
+                score of METAL improves by 11.33% over Direct Prompting with 5
+                test-time compute recurrences. Similarly, for the GPT base
+                model, METAL outperformed baselines by a considerable margin,
+                achieving an average F1 score of 86.46%, which is improved 5.2%
+                in average over Direct Prompting.
               </h2>
               <br />
             </div>
